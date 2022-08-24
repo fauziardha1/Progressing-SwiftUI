@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Counter: View {
-    @State var counter = 0
+    @State private var counter = 0 // because state just used in one view
     
     var body: some View {
         VStack {
