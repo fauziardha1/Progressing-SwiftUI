@@ -17,7 +17,7 @@ struct ContentView: View {
                     Text("Hello Word!")
                     Text("Hello Word!")
                     Text("Hello Word!")
-                    Text("Hello Word!")
+                    Text("Hello Word!w")
                 }
                 Section{
                     Text("Hello Word!")
