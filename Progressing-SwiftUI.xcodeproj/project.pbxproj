@@ -13,6 +13,7 @@
 		05843A6428B6C28F0083DD32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05843A6328B6C28F0083DD32 /* ContentView.swift */; };
 		05843A6628B6C2930083DD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05843A6528B6C2930083DD32 /* Assets.xcassets */; };
 		05843A6928B6C2930083DD32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05843A6828B6C2930083DD32 /* Preview Assets.xcassets */; };
+		05C9DF8328B807AE0006B331 /* ViewsInLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C9DF8228B807AE0006B331 /* ViewsInLoop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		05843A6328B6C28F0083DD32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05843A6528B6C2930083DD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05843A6828B6C2930083DD32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05C9DF8228B807AE0006B331 /* ViewsInLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsInLoop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				05843A6328B6C28F0083DD32 /* ContentView.swift */,
 				055A97A428B6C737005BF10F /* Counter.swift */,
 				055A97A628B6CA35005BF10F /* InterfaceControl.swift */,
+				05C9DF8228B807AE0006B331 /* ViewsInLoop.swift */,
 			);
 			path = "Day16-Form";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				05843A6428B6C28F0083DD32 /* ContentView.swift in Sources */,
 				05843A6228B6C28F0083DD32 /* Progressing-SwiftUI-Main.swift in Sources */,
 				055A97A528B6C737005BF10F /* Counter.swift in Sources */,
+				05C9DF8328B807AE0006B331 /* ViewsInLoop.swift in Sources */,
 				055A97A728B6CA35005BF10F /* InterfaceControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
