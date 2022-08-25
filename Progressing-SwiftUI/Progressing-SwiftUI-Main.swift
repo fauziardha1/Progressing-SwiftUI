@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct day16_formApp: App {
+struct Progressing_SwiftUI: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

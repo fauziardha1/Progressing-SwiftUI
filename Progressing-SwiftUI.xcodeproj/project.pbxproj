@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		055A97A528B6C737005BF10F /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A97A428B6C737005BF10F /* Counter.swift */; };
-		05843A6228B6C28F0083DD32 /* day16_formApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05843A6128B6C28F0083DD32 /* day16_formApp.swift */; };
+		055A97A728B6CA35005BF10F /* InterfaceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A97A628B6CA35005BF10F /* InterfaceControl.swift */; };
+		05843A6228B6C28F0083DD32 /* Progressing-SwiftUI-Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05843A6128B6C28F0083DD32 /* Progressing-SwiftUI-Main.swift */; };
 		05843A6428B6C28F0083DD32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05843A6328B6C28F0083DD32 /* ContentView.swift */; };
 		05843A6628B6C2930083DD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05843A6528B6C2930083DD32 /* Assets.xcassets */; };
 		05843A6928B6C2930083DD32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05843A6828B6C2930083DD32 /* Preview Assets.xcassets */; };
@@ -16,8 +17,9 @@
 
 /* Begin PBXFileReference section */
 		055A97A428B6C737005BF10F /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
-		05843A5E28B6C28F0083DD32 /* day16-form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day16-form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05843A6128B6C28F0083DD32 /* day16_formApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day16_formApp.swift; sourceTree = "<group>"; };
+		055A97A628B6CA35005BF10F /* InterfaceControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceControl.swift; sourceTree = "<group>"; };
+		05843A5E28B6C28F0083DD32 /* Progressing-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progressing-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05843A6128B6C28F0083DD32 /* Progressing-SwiftUI-Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Progressing-SwiftUI-Main.swift"; sourceTree = "<group>"; };
 		05843A6328B6C28F0083DD32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05843A6528B6C2930083DD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05843A6828B6C2930083DD32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 		05843A5528B6C28F0083DD32 = {
 			isa = PBXGroup;
 			children = (
-				05843A6028B6C28F0083DD32 /* day16-form */,
+				05843A6028B6C28F0083DD32 /* Progressing-SwiftUI */,
 				05843A5F28B6C28F0083DD32 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,21 +47,20 @@
 		05843A5F28B6C28F0083DD32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05843A5E28B6C28F0083DD32 /* day16-form.app */,
+				05843A5E28B6C28F0083DD32 /* Progressing-SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05843A6028B6C28F0083DD32 /* day16-form */ = {
+		05843A6028B6C28F0083DD32 /* Progressing-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				05843A6128B6C28F0083DD32 /* day16_formApp.swift */,
-				05843A6328B6C28F0083DD32 /* ContentView.swift */,
-				055A97A428B6C737005BF10F /* Counter.swift */,
+				05B4179528B805EC009C52F5 /* Day16-Form */,
+				05843A6128B6C28F0083DD32 /* Progressing-SwiftUI-Main.swift */,
 				05843A6528B6C2930083DD32 /* Assets.xcassets */,
 				05843A6728B6C2930083DD32 /* Preview Content */,
 			);
-			path = "day16-form";
+			path = "Progressing-SwiftUI";
 			sourceTree = "<group>";
 		};
 		05843A6728B6C2930083DD32 /* Preview Content */ = {
@@ -70,12 +71,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		05B4179528B805EC009C52F5 /* Day16-Form */ = {
+			isa = PBXGroup;
+			children = (
+				05843A6328B6C28F0083DD32 /* ContentView.swift */,
+				055A97A428B6C737005BF10F /* Counter.swift */,
+				055A97A628B6CA35005BF10F /* InterfaceControl.swift */,
+			);
+			path = "Day16-Form";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05843A5D28B6C28F0083DD32 /* day16-form */ = {
+		05843A5D28B6C28F0083DD32 /* Progressing-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05843A6C28B6C2930083DD32 /* Build configuration list for PBXNativeTarget "day16-form" */;
+			buildConfigurationList = 05843A6C28B6C2930083DD32 /* Build configuration list for PBXNativeTarget "Progressing-SwiftUI" */;
 			buildPhases = (
 				05843A5A28B6C28F0083DD32 /* Sources */,
 				05843A5B28B6C28F0083DD32 /* Frameworks */,
@@ -85,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "day16-form";
+			name = "Progressing-SwiftUI";
 			productName = "day16-form";
-			productReference = 05843A5E28B6C28F0083DD32 /* day16-form.app */;
+			productReference = 05843A5E28B6C28F0083DD32 /* Progressing-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 05843A5928B6C28F0083DD32 /* Build configuration list for PBXProject "day16-form" */;
+			buildConfigurationList = 05843A5928B6C28F0083DD32 /* Build configuration list for PBXProject "Progressing-SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05843A5D28B6C28F0083DD32 /* day16-form */,
+				05843A5D28B6C28F0083DD32 /* Progressing-SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -141,8 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05843A6428B6C28F0083DD32 /* ContentView.swift in Sources */,
-				05843A6228B6C28F0083DD32 /* day16_formApp.swift in Sources */,
+				05843A6228B6C28F0083DD32 /* Progressing-SwiftUI-Main.swift in Sources */,
 				055A97A528B6C737005BF10F /* Counter.swift in Sources */,
+				055A97A728B6CA35005BF10F /* InterfaceControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +280,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"day16-form/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Progressing-SwiftUI\"";
 				DEVELOPMENT_TEAM = XLX6KD3AF8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,8 +297,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fauziarda.com.day16-form";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauziarda.progressing12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +311,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"day16-form/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Progressing-SwiftUI\"";
 				DEVELOPMENT_TEAM = XLX6KD3AF8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,8 +328,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fauziarda.com.day16-form";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fauziarda.progressing12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05843A5928B6C28F0083DD32 /* Build configuration list for PBXProject "day16-form" */ = {
+		05843A5928B6C28F0083DD32 /* Build configuration list for PBXProject "Progressing-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05843A6A28B6C2930083DD32 /* Debug */,
@@ -333,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05843A6C28B6C2930083DD32 /* Build configuration list for PBXNativeTarget "day16-form" */ = {
+		05843A6C28B6C2930083DD32 /* Build configuration list for PBXNativeTarget "Progressing-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05843A6D28B6C2930083DD32 /* Debug */,
